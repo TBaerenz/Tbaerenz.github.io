@@ -24,10 +24,10 @@ export class UI {
         if(this.game.time == 0){
         context.fillText('Pfeiltasten zum Bewegen, Leertaste zum Angreifen', 20, 130);
         context.fillText('Die orange Leiste stellt die Energie zum Angreifen dar.', 20, 160);
-        context.fillText('wenn sie leer ist, ist Emma kurz gestunned.', 20, 190);
-        context.fillText('-1 Leben, wenn Gegner berührt wird ohne anzugreifen.', 20, 210);
-        context.fillText('+1 Score, wenn Gegner getötet wird', 20, 240);
-        context.fillText('Ziel: nach 30s den höchsten Score haben.', 20, 270);
+        context.fillText('Wenn sie leer ist, ist Emma kurz gestunned.', 20, 190);
+        context.fillText('-1 Leben, wenn Gegner berührt wird ohne anzugreifen.', 20, 220);
+        context.fillText('+1 Score, wenn Gegner getötet wird', 20, 250);
+        context.fillText('Ziel: nach 30s den höchsten Score haben.', 20, 280);
         }
         
         if(this.game.gameOver){
